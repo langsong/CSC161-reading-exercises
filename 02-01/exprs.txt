@@ -1,0 +1,19 @@
+Question 1:
+
+int is an integer reflecting the natural size of integers on the host
+machine;
+float is a number with single-precision floating point;
+double is a number with double-precision floating point;
+short is a qualifier that could be applied to numbers, and it provides
+normally 16 bit length.
+
+Question 2:
+3.0
+Because all numbers in the expression are interger type. The type of the
+result of y is also an integer, so it's 3. Then the result becomes 3.0
+after applying float onto it.
+
+Question 3:
+i is 1, j is 1, x is 0, and y is 1
+i++ increments i after setting x to 0, and ++j increments j before
+assigning y the value of j.
