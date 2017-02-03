@@ -1,0 +1,5 @@
+The result of this program will be that the program will crash. There's a
+recursion inside foo, and foo will call on foo again inside itself and this
+process goes on infinitely. When main function is runned, foo will be
+called, and the program will crash because it will define int x = 5
+infinitely. 
